@@ -77,6 +77,7 @@ bool isFirstBuild = true;
     final Size size = MediaQuery.of(context).size;
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(title: Text("İçeriği Güncelle"),),
         body: SingleChildScrollView(
           child: StreamBuilder(
             stream: FirebaseFirestore.instance

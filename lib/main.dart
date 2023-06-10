@@ -6,6 +6,7 @@ import 'package:softwareproject/screens/home_page_view.dart';
 import 'package:softwareproject/screens/introduction_page_view.dart';
 import 'package:softwareproject/screens/login_page_view.dart';
 import 'package:softwareproject/screens/profile_page_view.dart';
+import 'package:softwareproject/screens/register_page_view.dart';
 import 'package:softwareproject/screens/router_page_view.dart';
 import 'package:softwareproject/screens/splashScreen_page_view.dart';
 
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         
       ),
       debugShowCheckedModeBanner: false,
-      home: SplashScreenPageView(),
+      home: RouterPageView(),
     );
   }
 }

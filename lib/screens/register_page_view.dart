@@ -86,11 +86,9 @@ class _RegisterPageViewState extends State<RegisterPageView> {
               SizedBox(height: size.height*0.03,),
               TextFormFieldWidget(controller: _passwordController, hintText: 'Şifre', icon: ProjectIcon().passwordIcon, isPasswordField: true, size: size, type: TextInputType.text, visible: true,),
               SizedBox(height: size.height*0.04,),
-              !_isLoading ? ButtonWidget(onPressed: signUpUser, buttonText: "Oturum Aç", size: size/1, backgroundColor: Colors.transparent,):
+              !_isLoading ? ButtonWidget(onPressed: signUpUser, buttonText: "Kayıt Ol", size: size/1, backgroundColor: Colors.transparent,):
               ButtonWidget(onPressed: (){}, buttonText: "LÜTFEN BEKLEYİN", size: size/1, backgroundColor: Colors.transparent,),
               SizedBox(height: size.height*0.02,),
-              ButtonWidget(onPressed: (){}, buttonText: "Parolayı Kurtar", size: size/1, backgroundColor: Colors.transparent,),
-              SizedBox(height: size.height*0.04,),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 35),
                 child: Text("Oturum açma işlemi, robot olmadığınızı kanıtlamak için Google reCAPTCHA ile korunuyor.",style: TextStyle(fontSize: 13,fontWeight: FontWeight.w500,color: Colors.white),textAlign: TextAlign.center,),
