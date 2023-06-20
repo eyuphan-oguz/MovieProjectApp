@@ -4,6 +4,11 @@
 # Film Archive Application
 This project aims to create a film archive application using Flutter, Dart, and Firebase. The application allows users to categorize movies with their title information and posters. Users can add new movies, update their own added movies, and delete them. The system administrator has full control over the entire archive information. Visitors can search for movies and view catalog information without registering on the site.
 
+## Features
+Users can add movies to the system, update their movie information, and delete movies they have added.
+The system administrator has complete control over user operations and archive information management.
+Guest users can search for films and view catalog information without registering.
+
 
   <p align="center">
   <img src="https://github.com/eyuphan-oguz/softwareproject/assets/75530935/4ca19fbb-1f91-4c87-95c9-61d73775ff4e?raw=true" alt="GIF Açıklaması" width="250" height="auto">
